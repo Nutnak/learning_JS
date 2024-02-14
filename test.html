@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ <!-- Ajoutez un élément avec l'ID "boucle" dans votre HTML -->
+<div id="boucle"></div>
+
+<script>
+var chiffre = 0;
+
+while (chiffre < 15) {
+  chiffre++;
+  document.write(chiffre);
+  document.getElementById('boucle').innerHTML = chiffre;
+}
+
+
+// Utilisez getElementById pour modifier le contenu de l'élément avec l'ID "boucle"
+</script>
+</body>
+</html>
